@@ -1,0 +1,11 @@
+project.afterEvaluate{
+    it -> it.tasks.getByName ("preDebugBuild",{
+       task -> task.doFirst{
+
+
+
+            }
+        }
+    )
+
+}

@@ -1,0 +1,11 @@
+def initGradleEvirement() {
+    println "initialize Gradle Environment ....."
+    Properties properties = new Properties();
+    properties.load(new File(rootDir.getAbsolutePath() + File.separator + "local.properties").newDataInputStream())
+
+
+    println "initialize Gradle Environment completes..."
+}
+initGradleEvirement()
+include ':app', ':module1', ':library1'
+

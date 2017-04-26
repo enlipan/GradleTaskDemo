@@ -1,0 +1,4 @@
+gradle.getRootProject().allprojects.each {
+    Project project -> println  "project: " + project.name
+}
+println "Projects  Module1"
